@@ -148,5 +148,32 @@ function submitForm() {
           Subject: `${name} sent you a message`,
           Body: `Name: ${name} <br/> Email: ${email} <br/> Message: ${message}`,
       }).then((message) => alert("Mail is sent successfully :). Thank you !"));
-
   }
+
+var travelLinksList = document.querySelectorAll('.travel-link');
+// console.log(travelLinksList.length);
+travelLinksList.forEach(function(links, index){
+    var sibling = travelLinksList[index].nextElementSibling;
+    // console.log(sibling.innerHTML);
+    links.addEventListener('click', function(index){
+        // console.log(sibling.style.display);
+        if (sibling.style.display == 'none')
+            sibling.style.display = 'inline';
+        else
+            sibling.style.display = 'none';    
+    })
+});
+
+var travelImgList = document.querySelectorAll('.image.featured.travel');
+// console.log(travelLinksList.length);
+travelImgList.forEach(function(imgs, index){
+    var sibling = travelImgList[index].nextElementSibling.nextElementSibling;
+    // console.log(sibling.innerHTML);
+    imgs.addEventListener('click', function(index){
+        // console.log(sibling.style.display);
+        if (sibling.style.display != 'inline')
+            sibling.style.display = 'inline';
+        else
+            sibling.style.display = 'none';    
+    })
+});

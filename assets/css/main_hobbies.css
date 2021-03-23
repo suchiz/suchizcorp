@@ -1879,6 +1879,12 @@ input, select, textarea {
 			width: 100%;
 			margin: 0 0 2em 0;
 		}
+		.image.featured.travel {
+			display: block;
+			cursor: pointer;
+			width: 100%;
+			margin: 0 0 2em 0;
+		}
 
 		.image.left {
 			float: left;
