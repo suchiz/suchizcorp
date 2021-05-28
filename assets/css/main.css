@@ -438,6 +438,13 @@ footer, header, hgroup, menu, nav, section {
 		padding: 5px;
 	  }
 
+p.role{
+		color: rgb(168, 168, 168);
+		margin-bottom: 1em;
+		font-size: 20px;
+		
+		/* text-transform: uppercase; */
+}
 body {
 	line-height: 1;
 }
