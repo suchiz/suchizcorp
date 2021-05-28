@@ -3692,9 +3692,12 @@ input, select, textarea {
 				}
 
 		@media screen and (max-width: 736px) {
-
+			#nav{
+				margin-left: 6%;
+				width: 100%;
+			}
 				#nav + #main {
-					padding-top: 7em;
+					padding-top: 0;
 				}
 
 		}
