@@ -541,7 +541,9 @@ input, select, textarea {
 	}
 
 		@media screen and (max-width: 1680px) {
-
+			#nav{
+				width: 100%;
+			}
 			body, input, select, textarea {
 				font-size: 14pt;
 			}
@@ -549,7 +551,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1280px) {
-
+			#nav{
+				width: 100%;
+			}
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
@@ -557,7 +561,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 360px) {
-
+			#nav{
+				width: 100%;
+			}
 			body, input, select, textarea {
 				font-size: 11pt;
 			}
@@ -3481,7 +3487,9 @@ input, select, textarea {
 				}
 
 		@media screen and (max-width: 1280px) {
-
+			#nav{
+				width: 100%;
+			}
 			#header {
 				padding: 4em 4em 0.1em 4em ;
 			}
@@ -3493,7 +3501,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 980px) {
-
+			#nav{
+				width: 100%;
+			}
 			#header {
 				padding: 4em 3em 0.1em 3em ;
 			}
@@ -3505,7 +3515,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
-
+			#nav{
+				width: 100%;
+			}
 			#header {
 				padding: 3em 2em 0.1em 2em ;
 			}
@@ -3530,7 +3542,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
-
+			#nav{
+				width: 100%;
+			}
 			#header {
 				padding: 3em 1.5em 0.1em 1.5em ;
 			}
@@ -3542,7 +3556,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 360px) {
-
+			#nav{
+				width: 100%;
+			}
 			#header {
 				padding: 2.5em 1em 0.1em 1em ;
 			}
@@ -3676,8 +3692,6 @@ input, select, textarea {
 				}
 
 		@media screen and (max-width: 736px) {
-
-			
 
 				#nav + #main {
 					padding-top: 7em;
@@ -3961,6 +3975,9 @@ input, select, textarea {
 
 		@media screen and (max-width: 1280px) {
 
+			#nav {
+				width: 100%;
+			}
 			#main > .main {
 				padding: 4em 4em 2em 4em ;
 			}
@@ -3973,7 +3990,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 980px) {
-
+			#nav {
+				width: 100%;
+			}
 			#main > .main {
 				padding: 4em 3em 2em 3em ;
 			}
@@ -3999,7 +4018,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
-
+			#nav {
+				width: 100%;
+			}
 			#main > .main {
 				padding: 3em 1.5em 1em 1.5em ;
 			}
@@ -4012,7 +4033,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 360px) {
-
+			#nav {
+				width: 100%;
+			}
 			#main {
 				border-radius: 0;
 			}
@@ -4123,7 +4146,9 @@ input, select, textarea {
 	}
 
 		@media screen and (max-width: 480px) {
-
+			#nav{
+				width: 100%;
+			}
 			#wrapper {
 				max-width: calc(100% - 2em);
 			}
@@ -4131,7 +4156,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 360px) {
-
+			#nav{
+				width: 100%;
+			}
 			#wrapper {
 				max-width: 100%;
 			}
