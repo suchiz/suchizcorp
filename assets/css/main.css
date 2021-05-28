@@ -3693,7 +3693,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 			#nav{
-				margin-left: 6%;
+				margin-left: 4%;
 				width: 100%;
 			}
 				#nav + #main {
